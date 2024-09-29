@@ -1,3 +1,6 @@
+# These values are from pubchem
+
+# These values are in kelvin
 boiling_point = {
     'H': 20.28,  # atomic number 1
     'He': 4.22,  # atomic number 2
