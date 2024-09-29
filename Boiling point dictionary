@@ -97,5 +97,9 @@ boiling_point = {
     'Cm': 3400  # atomic number 96
 }
 
+# find the highest boiling point
 largest_key = max(boiling_point, key=boiling_point.get)
 print(f'The element with the higest boiling point is {largest_key} at {boiling_point[largest_key]} kelvin')
+
+# find The boiling point of your requested element
+print(f"The boiling point of the key is {boiling_point.get('Hg')}")
